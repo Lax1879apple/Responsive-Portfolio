@@ -4,14 +4,14 @@
     height: 60px;
     width: 220px;
     text-align: center;
-    margin-left: 182.5px;
+    margin-left: 168.5px;
 }
 a{
     color:#666666;
 }
 
 .navbar-nav{
-    margin-right: 174.5px;
+    margin-right: 168.5px;
     
 }
 .navbar{
@@ -59,22 +59,37 @@ form{
     height: 380px;
     
 }
-#buttom{
+#button{
     background-color: #4aaaa5;
 }
-@media(min-with: 640px) {
+#keybordimg{
+    height: 237px;
+    width: 347px;
+}
+#machineimg{
+    height:230px;
+    width:347px;
+}
+
+/* media queries */
+@media (min-width:0px) and (max-width: 640px) {
     p{
         font-size: 9px;
     }
 }
-@media(min-with: 768px) {
+@media(min-width:641px) and (max-width: 768px) {
     p{
         font-size:11px;
     }
 }
-@media(min-with:980px){
+@media(min-width:769px) and (max-width:980px){
     p{
         font-size:13px;
     }
 
+}
+@media(min-width:981px) and (max-width:1100px){
+    p{
+        font-size:15px;
+    }
 }
