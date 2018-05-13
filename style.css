@@ -1,0 +1,80 @@
+.navbar-brand{
+    background-color:#4aaaa5;
+    display: block;
+    height: 60px;
+    width: 220px;
+    text-align: center;
+    margin-left: 182.5px;
+}
+a{
+    color:#666666;
+}
+
+.navbar-nav{
+    margin-right: 174.5px;
+    
+}
+.navbar{
+    height: 60px;
+}
+.container{
+  background-color: #fff  
+}
+
+
+#container{
+    background-color:#666666;
+    margin-top: 170px; 
+    border-top:7px solid #4aaaa5;
+
+}
+#dodi{
+    margin-top: 30px;
+}
+
+ body{
+     background-color:#ccc;
+     margin-left: auto;
+     margin-right: auto;
+    
+ }
+.btn-facebook {
+    background: #3B5998;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #263961; 
+  }
+  .btn-facebook:link, .btn-facebook:visited {
+    color: #fff;
+  }
+  .btn-facebook:active, .btn-facebook:hover {
+    background: #263961;
+    color: #fff;
+  }
+ 
+
+form{
+    height: 380px;
+    
+}
+#buttom{
+    background-color: #4aaaa5;
+}
+@media(min-with: 640px) {
+    p{
+        font-size: 9px;
+    }
+}
+@media(min-with: 768px) {
+    p{
+        font-size:11px;
+    }
+}
+@media(min-with:980px){
+    p{
+        font-size:13px;
+    }
+
+}
