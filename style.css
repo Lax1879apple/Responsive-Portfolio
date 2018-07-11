@@ -70,6 +70,10 @@ form{
     height:230px;
     width:347px;
 }
+#game{
+    border-style: solid blue;
+}
+
 
 /* media queries */
 @media (min-width:0px) and (max-width: 640px) {
